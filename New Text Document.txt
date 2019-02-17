@@ -1,0 +1,48 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+ <head>
+<style>
+body{background-color:powderblue;}#title{color:red;text-align:center;}
+#description{font-size:20px;font-family:Arabic;}
+fieldset{background-color:rgb(245,245,245);margin-left:15%;margin-right:15%;display:block;padding-top:1.35em;padding-left:1.35em;padding-bottom:1.35em;}</style>
+</head>
+<body>
+<br>
+<h1 id="title"><b>SURVEY FORM</b>
+</h1>
+<p id="description"text-size=120px>This is a survey form.Please enter your details correctly. </p>
+<form id="survey-form" action="www.gmail.com"><br><fieldset > <legend>Your Details:</legend>
+<label for="name-label" id="name-label" >Full Name</label>
+<br><input type="text" name="fullname" placeholder="Full Name" id="name" required>
+<br><br>
+<label for="email-label" id="email-label" >Email Id</label>
+<br><input type="email" name="email" id="email"placeholder="www.xyz@gmail.com" required><br><br>
+<label for="number-label">Number</label>
+<br><input type="number" name="number" placeholder="9218xxxxxx" ><br><br>
+What Describes you best:<br>
+<select name="dropdown" id="dropdown">
+<option value="student">Student</option>
+<option value="prof">Professional</option>
+<option value="fresher">Fresher</option>
+<option value="none">None</option>
+</select><br><br>
+What is your gender:<br>
+<input type="radio" name="rad" value="male">Male<br>
+<input type="radio" name="rad" value="female">Female<br>
+<input type="radio" name="rad" value="not">Prefer not to say<br><br>
+What do you possess:<br>
+<input type="checkbox" name="one" value="Home">Flat<br>
+<input type="checkbox" name="two" value="Phone">Moblie<br>
+<input type="checkbox" name="three" value="laptop">Laptop<br>
+<input type="checkbox" name="four" value="bike">Bike<br>
+other:<input type:"text" name="none" ><br><br><label for="number-label" id="number-label" >
+  Rate us(Between 1-10):</label><br><input type="number" name="number" min="1" max="10" id="number" placeholder="Rate us"><br><br>
+<textarea name="comment" row="25" column="29">Enter your comments here</textarea><br><br>
+<input type="submit" value="Submit" id="submit">
+<input type="reset">
+<br></fieldset></form>
+<button id="name></button>
+
+</body>
+</html>
